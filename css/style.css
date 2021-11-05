@@ -37,6 +37,11 @@
     font-size: 15px;
     display: inline-block;
 }
+.white-button{
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+}
 .table{
     border: 1px solid #d8d8da;
     height: 900px;
@@ -156,3 +161,31 @@ header>div:first-of-type{
     margin-left: -1.3em;
     width: 1.3em;
   }
+  .contact-option{
+    border: 1px solid #cdd4d8;
+  }
+  .contact-option>div:first-child{
+    text-align: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #cdd4d8;
+  }
+  .contact-option .button{
+    margin: 20px;
+  }
+  .dropbox-partner .row div{
+    width: 50%;
+  }
+  .dropbox-partner .row>div:first-child img{
+    width: 100%;
+  }
+  .dropbox-partner .row>div:last-child{
+    padding: 60px;
+  }
+  .dropbox-partner .row>div:last-child p{
+    font-size: 20px;
+    margin-top: 30px;
+    line-height: 30px;
+}
+.dropbox-partner .button{
+    margin: 40px 0;
+}
