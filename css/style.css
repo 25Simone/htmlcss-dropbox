@@ -20,18 +20,16 @@
 .v-align{
     vertical-align: middle;
 }
-.navbar ul{
-    display: inline-block;
+.container{
+    width: 1200px;
+    margin: 200px auto 0 auto;
+    border: 1px solid black;
 }
-.navbar ul li {
-    font-size: 12px;
-    font-weight: 400;
-    display: inline-block;
-    margin: 0 20px;
+.container>h1{
+    margin-bottom: 40px;
 }
-.navbar ul li a{
-    text-decoration: none;
-    color: black
+.row{
+    padding: 30px 0;
 }
 .button{
     padding: 8px 20px;
@@ -53,6 +51,17 @@ header{
 }
 .navbar ul{
     list-style: none;
+    display: inline-block;
+}
+.navbar ul li {
+    font-size: 12px;
+    font-weight: 400;
+    display: inline-block;
+    margin: 0 20px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: black
 }
 .navbar ul li a:hover {
     text-decoration: underline;
@@ -89,4 +98,17 @@ header>div:first-of-type{
 }
 .jumbotron-img img{
     width: 100%;
+}
+.business-planes>div:first-child, .business-planes>div:last-child{
+    width: calc(100% / 3 - 30px);
+    height: 900px;
+    background: red;
+    border: 1px solid black;
+}
+.business-planes>div:nth-child(2){
+    width: calc(100% / 3 + 60px);
+    height: 900px;
+    padding: 0 30px;
+    background: red;
+    border: 1px solid black;
 }
