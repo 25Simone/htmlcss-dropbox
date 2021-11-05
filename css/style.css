@@ -25,7 +25,7 @@
 }
 .navbar ul li {
     font-size: 12px;
-    font-weight: lighter;
+    font-weight: 400;
     display: inline-block;
     margin: 0 20px;
 }
@@ -33,14 +33,11 @@
     text-decoration: none;
     color: black
 }
-#logo{
-    width: 100px;
-}
 .button{
     padding: 8px 20px;
     color: white;
     background-color: #0063ff;
-    font-size: 12px;
+    font-size: 15px;
     display: inline-block;
 }
 /* end utility */
@@ -48,7 +45,6 @@
 
 
 header{
-    height: 550px;
     background: #add1ea;
 }
 .navbar{
@@ -60,4 +56,37 @@ header{
 }
 .navbar ul li a:hover {
     text-decoration: underline;
+}
+#logo{
+    width: 100px;
+}
+header>div:first-of-type{
+    max-width: 1400px;
+    margin: 60px auto;
+}
+.jumbotron-title{
+    margin-bottom: 30px;
+    font-size: 35px;
+}
+.jumbotron-txt{
+    max-width: 350px;
+    font-size: 15px;
+    font-weight: 400;
+}
+.jumbotron-txt p{
+    margin-bottom: 20px;
+}
+.jumbotron-txt>div:nth-child(3){
+    margin: 10px 0 20px 0;
+}
+.jumbotron-txt>div:nth-child(4){
+    font-size: 50px;
+}
+.jumbotron-img{
+    width: 1050px;
+    padding: 0px 150px;
+    margin-bottom: -100px;
+}
+.jumbotron-img img{
+    width: 100%;
 }
