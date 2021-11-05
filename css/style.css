@@ -4,3 +4,60 @@
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 }
+
+/* utility */
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.clearfix::after {
+    content: " ";
+    display: table;
+    clear: both;
+   }
+.v-align{
+    vertical-align: middle;
+}
+.navbar ul{
+    display: inline-block;
+}
+.navbar ul li {
+    font-size: 12px;
+    font-weight: lighter;
+    display: inline-block;
+    margin: 0 20px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: black
+}
+#logo{
+    width: 100px;
+}
+.button{
+    padding: 8px 20px;
+    color: white;
+    background-color: #0063ff;
+    font-size: 12px;
+    display: inline-block;
+}
+/* end utility */
+
+
+
+header{
+    height: 550px;
+    background: #add1ea;
+}
+.navbar{
+    background: white;
+    padding: 15px;
+}
+.navbar ul{
+    list-style: none;
+}
+.navbar ul li a:hover {
+    text-decoration: underline;
+}
