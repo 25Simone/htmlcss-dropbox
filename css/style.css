@@ -92,6 +92,12 @@
     left: 50%;
     transform: translate(-50%, -50%);
 }
+footer{
+    color: white;
+    background: #000;
+    padding: 60px 200px;
+}
+
 
 /* end utility */
 
@@ -186,6 +192,7 @@ header>div:first-of-type{
   }
   .contact-option{
     border: 1px solid #cdd4d8;
+    margin-top: 40px;
   }
   .contact-option>div:first-child{
     text-align: center;
@@ -297,4 +304,27 @@ header>div:first-of-type{
 }
 .question>div:last-child{
     margin-right: 30px;
+}
+footer ul{
+    list-style: none;
+}
+footer ul li{
+    margin-bottom: 10px;
+    font-size: 12px;
+}
+footer .row>div{
+    margin-right: 100px;
+}
+footer .row div>h1{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+footer>hr{
+    border-color: #fff;
+    width: 100px;
+    margin: 100px 0 40px 0;
+}
+footer>div:last-child{
+    font-size: 12px;
+    font-weight: 200;
 }
