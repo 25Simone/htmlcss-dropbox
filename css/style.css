@@ -108,10 +108,12 @@ header{
     background: #add1ea;
 }
 .navbar{
+    line-height: 60px;
     background: white;
-    padding: 15px;
+    padding: 0 15px;
 }
 .navbar ul{
+    vertical-align: middle;
     list-style: none;
     display: inline-block;
 }
@@ -130,6 +132,7 @@ header{
 }
 #logo{
     width: 100px;
+    vertical-align: text-bottom;
 }
 header>div:first-of-type{
     max-width: 1400px;
