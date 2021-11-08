@@ -179,6 +179,78 @@ header>div:first-of-type{
 .table-content h3{
     margin: 30px 0;
 }
+.professional{
+    padding-left: 1.3em;
+}
+.professional li:first-child::before{
+    content: "\f007";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    margin-left: -1.3em;
+    width: 1.3em;
+}
+.professional li:nth-child(2)::before{
+    content: "\f07b";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    margin-left: -1.3em;
+    width: 1.3em;
+}
+.professional li:last-child::before{
+    content: "\f303";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    margin-left: -1.3em;
+    width: 1.3em;
+}
+.standard{
+    padding-left: 1.3em;
+}
+.standard li:first-child::before{
+    content: "\f234";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    margin-left: -1.3em;
+    width: 1.3em;
+}
+.standard li:nth-child(2)::before{
+    content: "\f07b";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    margin-left: -1.3em;
+    width: 1.3em;
+}
+.standard li:last-child::before{
+    content: "\f118";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    margin-left: -1.3em;
+    width: 1.3em;
+}
+.advanced{
+    padding-left: 1.3em;
+}
+.advanced li:first-child::before{
+    content: "\f234";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    margin-left: -1.3em;
+    width: 1.3em;
+}
+.advanced li:nth-child(2)::before{
+    content: "\f118";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    margin-left: -1.3em;
+    width: 1.3em;
+}
+.advanced li:last-child::before{
+    content: "\f303";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    margin-left: -1.3em;
+    width: 1.3em;
+}
 .punti-salienti{
     padding-left: 1.3em;
 }
